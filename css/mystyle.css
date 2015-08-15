@@ -1,0 +1,78 @@
+body{
+width           :1100px;
+background-color: #dedede;
+margin          : 30px auto;
+}
+
+.container{
+	
+background        : #0ff;
+border            : 1px solid red;
+border            : 3px solid #fff;
+box-shadow        : 1px solid #dedede;
+height            : 20px;
+margin            : 20px; 
+overflow          : hidden;
+width             : 200px;
+
+}
+.Row>* {
+	display: table-cell;
+}
+.bar{
+-webkit-transition: opacity .5;
+-moz-transition   : opacity .5;
+-ms-transition    : opacity .5;
+-o-transition     : opacity .5;
+transition        : opacity .5;
+height            : 30px;
+width             : 400px;
+background        : repeating-linear-gradient(45deg, rgba(255,255,255,.5)0, rgba(255,255,255,.9) 5px, transparent 5px, transparent 10px);
+animation         : slice 3s linear infinite;
+}
+
+@keyframes slice {
+0% {
+margin-left       : 0;
+}
+100% {
+margin-left       : -100%;
+}
+}
+.spanChild {
+border            : 2px solid blue;
+height            : 50px;
+padding           : 10px;
+text-align        : center;
+width             : 100px;
+}
+.spanChild        :after {
+content           : "Bla lba bla ";
+
+}
+.span {
+background        : green;
+background        : green;
+background        : green;
+border-radius     : 5px;
+border            : 1px solid red; 
+box-shadow        : 0px 0px 1px 2px;
+color             : #dedede;
+margin            : 10px;
+padding           : 10px;
+}
+
+.Human {
+	border: 1px solid blue;
+	padding: 20px;
+	margin: 20px;
+	background: #Dedede;
+}
+.Human>* {
+	padding: 10px;
+	color: green;
+	border-bottom: 2px blue dotted;
+}
+.Human>*:hover{
+	color: red;
+}
