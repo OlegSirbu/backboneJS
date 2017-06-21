@@ -110,7 +110,7 @@ $(function() {
         {
             title: 'Сходить на работу',
             priority: 5 
-        },
+        }
     ]);
  
     var tasksView = new App.Views.Tasks({ collection: tasksCollection});

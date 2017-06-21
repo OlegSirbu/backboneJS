@@ -41,7 +41,7 @@ App.Collections.People = Backbone.Collection.extend({
     },
     showalert: function() {
         
-    },
+    }
 
 
 });
